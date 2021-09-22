@@ -15,6 +15,12 @@ namespace Tarea_ejercicio_2
         public Form1()
         {
             InitializeComponent();
+            rbt_Ingresar.Checked = true;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
